@@ -40,6 +40,7 @@ Following are some of the new features and learning encountered while creating t
 Follwing resources have been used in maintaining this project:
 
 - [Drive Link](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblFMZGd2YnV5WW9DWl93d3B6OWgwaHA2elBxZ3xBQ3Jtc0ttTHhhVkxkeTlPSzdvNmJSZ2ZwU3RuS1RjaDVBRFotekdTUUY1V180X2hLYm8tNGZtQ0dyWEowckJkYW9kUXZBbTN0dEEyOC1tdVdpbWdPT3ZUbGVLeElaY1ZKeTZNNF9iVEYzc1ZJQmI3TEJGQVRrSQ&q=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1L_23PjPL1qrMN1Z2JUxKXvlFG_76tN3P%3Fusp%3Dsharing&v=TawH-AqHTXc) for downloading images.
+- [Google Fonts](https://fonts.google.com/) to import <strong>Poppins</strong> family.
 
 
 <br><br>
@@ -49,7 +50,7 @@ Follwing resources have been used in maintaining this project:
 ### Demo
 <p align="justify">
   The Demo of this working portfolio can be found on <br>
-  [https://rebrand.ly/](https://rebrand.ly/ )
+  <a href="https://rebrand.ly/MoonLight_MABCORP">https://rebrand.ly/MoonLight_MABCORP</a>
 </p>
 
 
@@ -74,7 +75,7 @@ You can exclusively watch the video on this project from the making to deploying
 
 
 ### GUI
-![GUI for this Project](path)
+![GUI for this Project](/Assets/demo.png)
 
 
 <br><br>
@@ -98,7 +99,7 @@ Follwing technologies have been used at the core of this application to make it 
 
 ### Advancement
 
-> Text here
+> Responsiveness can be done.
 
 <br><br>
 <!-- ................................................................................................................................. -->
