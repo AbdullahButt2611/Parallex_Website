@@ -1,0 +1,101 @@
+/* LINK FOR POPPINS FAMILY FROM GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #0a2a43;
+    min-height: 1500px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43, transparent);
+    z-index: 100000;
+}
+
+section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #0a2a43;
+    mix-blend-mode: color;
+    z-index: 100000;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#text{
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+}
+
+#road{
+    z-index: 2;
+}
+
+.content{
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+}
+
+.content h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+    font-size: 4em;
+}
+
+.content p{
+    font-size: 1.2em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #004071;
+    border-radius: 4rem;
+    transition: all 4000ms ease;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005ca2;
+}
